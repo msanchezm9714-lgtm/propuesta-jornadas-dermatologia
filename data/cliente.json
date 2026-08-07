@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "tituloPagina": "Propuesta · Jornadas Bienales de Dermatología 2026",
+    "descripcionPagina": "Propuesta de comunicación estratégica y difusión digital para las Jornadas Bienales de Dermatología 2026."
+  },
+  "cliente": {
+    "nombre": "Jornadas Bienales de Dermatología 2026",
+    "proyecto": "Comunicación Estratégica y Difusión Digital",
+    "fecha": "Agosto 2026",
+    "vigencia": "Esta propuesta tiene una vigencia de 15 días a partir de su fecha de envío."
+  },
+  "autor": {
+    "nombre": "Esteban Sánchez",
+    "rol": "Estrategia y Diseño Digital",
+    "email": "msanchezm9714@gmail.com",
+    "telefono": "+52 984 317 5496",
+    "whatsapp": "529843175496"
+  },
+  "hero": {
+    "etiqueta": "Propuesta Comercial · 2026",
+    "titulo": "Jornadas Bienales de Dermatología 2026",
+    "subtitulo": "Propuesta de Comunicación Estratégica",
+    "descripcion": "Diseño, estrategia y difusión digital para maximizar el alcance, la participación y el impacto de las Jornadas Bienales de Dermatología.",
+    "ctaPrimario": "Ver propuesta",
+    "ctaSecundario": "Contactar"
+  },
+  "sobreProyecto": {
+    "etiqueta": "Sobre el proyecto",
+    "titulo": "Más que piezas gráficas: una estrategia de comunicación",
+    "descripcion": "El objetivo de este proyecto no es únicamente desarrollar piezas gráficas sueltas. Es construir una estrategia de comunicación visual consistente, capaz de posicionar las Jornadas como un evento de referencia y de generar participación real entre los profesionales de la salud a los que está dirigido.",
+    "objetivo": "Cada pieza —desde el anuncio inicial hasta el último recordatorio antes del evento— responde a un mismo sistema visual y a un mismo propósito: que la comunidad médica se entere, se interese y se inscriba.",
+    "publicoObjetivoTitulo": "Público objetivo",
+    "publicoObjetivo": [
+      "Pediatras",
+      "Dermatólogos",
+      "Médicos Generales",
+      "Residentes",
+      "Estudiantes de Medicina"
+    ],
+    "canalesTitulo": "Canales de difusión",
+    "canales": [
+      { "nombre": "Instagram", "icono": "Instagram" },
+      { "nombre": "Facebook", "icono": "Facebook" },
+      { "nombre": "WhatsApp", "icono": "MessageCircle" },
+      { "nombre": "Grupos Médicos", "icono": "Users" }
+    ]
+  },
+  "alcance": {
+    "etiqueta": "Alcance del proyecto",
+    "titulo": "Todo lo que incluye la producción",
+    "descripcion": "Un sistema completo de piezas, pensado para acompañar cada etapa del evento: desde el anuncio hasta el cierre de inscripciones.",
+    "categorias": [
+      {
+        "titulo": "Diseño Gráfico",
+        "icono": "Palette",
+        "items": [
+          "Imagen principal del congreso",
+          "Save the Date",
+          "Apertura de inscripciones",
+          "Programa general",
+          "Información de sede",
+          "Información de costos",
+          "Últimos lugares"
+        ]
+      },
+      {
+        "titulo": "Publicaciones de ponentes",
+        "icono": "Users",
+        "items": [
+          "Diseño individual",
+          "Fotografía",
+          "Nombre",
+          "Especialidad",
+          "Institución",
+          "Tema",
+          "Currículum breve cuando aplique",
+          "Adaptación Feed",
+          "Adaptación Stories"
+        ]
+      },
+      {
+        "titulo": "Historias",
+        "icono": "Clock",
+        "items": [
+          "Save the Date",
+          "Inicio de inscripciones",
+          "Presentación de ponentes",
+          "Cuenta regresiva",
+          "Recordatorios",
+          "Última oportunidad"
+        ]
+      },
+      {
+        "titulo": "Adaptaciones",
+        "icono": "Layers",
+        "items": [
+          "Instagram Feed",
+          "Facebook Feed",
+          "Stories",
+          "Vertical",
+          "Cuadrado",
+          "WhatsApp"
+        ]
+      },
+      {
+        "titulo": "Calendario",
+        "icono": "Calendar",
+        "items": [
+          "Planeación completa de publicaciones hasta el evento"
+        ]
+      }
+    ]
+  },
+  "fases": {
+    "etiqueta": "Propuesta de inversión",
+    "titulo": "Fases del proyecto",
+    "descripcion": "Dos fases pensadas para trabajar de forma independiente o en conjunto, según las necesidades del evento.",
+    "moneda": "MXN",
+    "fase1": {
+      "numero": "Fase 1",
+      "nombre": "Producción Creativa",
+      "badge": "OBLIGATORIA",
+      "descripcion": "El desarrollo completo del sistema visual del evento y de todas las piezas necesarias para su difusión.",
+      "precio": 22000,
+      "incluye": [
+        "Desarrollo de identidad gráfica del evento",
+        "Diseño de todas las piezas solicitadas",
+        "Diseño de publicaciones para ponentes",
+        "Adaptaciones para redes sociales",
+        "Historias",
+        "Calendario de publicaciones",
+        "Archivos finales optimizados",
+        "Hasta dos rondas de ajustes"
+      ]
+    },
+    "fase2": {
+      "numero": "Fase 2",
+      "nombre": "Gestión de Campaña",
+      "badge": "OPCIONAL",
+      "descripcion": "La operación diaria de la campaña, para que la comunicación se mantenga activa y consistente hasta el evento.",
+      "precio": 13000,
+      "incluye": [
+        "Programación de publicaciones",
+        "Redacción de copies",
+        "Gestión del calendario",
+        "Publicación del contenido",
+        "Monitoreo básico",
+        "Coordinación de ajustes durante la campaña"
+      ]
+    },
+    "notaResumen": "La Gestión de Campaña complementa la Producción Creativa y permite mantener una comunicación consistente durante toda la difusión del evento."
+  },
+  "cronograma": {
+    "etiqueta": "Cronograma",
+    "titulo": "Cómo avanza el proyecto",
+    "pasos": [
+      { "titulo": "Recepción del anticipo", "descripcion": "Confirmación del proyecto y arranque formal del trabajo." },
+      { "titulo": "Inicio del proyecto", "descripcion": "Recopilación de información, contenidos y materiales de referencia." },
+      { "titulo": "Desarrollo de identidad visual", "descripcion": "Definición del sistema gráfico que guiará todas las piezas." },
+      { "titulo": "Diseño del material", "descripcion": "Producción de la totalidad de piezas definidas en el alcance." },
+      { "titulo": "Ronda de ajustes", "descripcion": "Revisión y afinación del material junto con el equipo organizador." },
+      { "titulo": "Entrega del material final", "descripcion": "Archivos optimizados y listos para su publicación." },
+      { "titulo": "Inicio de la difusión", "descripcion": "Arranque de la campaña en los canales definidos." },
+      { "titulo": "Seguimiento de campaña", "descripcion": "Gestión y monitoreo continuo hasta el cierre del evento.", "condicional": true }
+    ]
+  },
+  "tiempos": {
+    "etiqueta": "Tiempo estimado",
+    "titulo": "Tiempo estimado",
+    "parrafos": [
+      "La Producción Creativa será desarrollada en un periodo estimado de hasta cuatro semanas, contadas a partir de la recepción del anticipo y de la entrega del contenido necesario para iniciar el proyecto.",
+      "El cronograma podrá ajustarse de común acuerdo en caso de modificaciones al alcance o retrasos en la entrega de información por parte del cliente."
+    ]
+  },
+  "condiciones": {
+    "etiqueta": "Condiciones",
+    "titulo": "Condiciones del proyecto",
+    "tarjetas": [
+      {
+        "titulo": "Forma de pago",
+        "icono": "Wallet",
+        "items": [
+          "50% de anticipo para iniciar el proyecto.",
+          "50% restante contra entrega del material final."
+        ]
+      },
+      {
+        "titulo": "Correcciones",
+        "icono": "RefreshCcw",
+        "items": [
+          "Incluye hasta dos rondas de ajustes.",
+          "Cambios adicionales podrán cotizarse por separado."
+        ]
+      },
+      {
+        "titulo": "Entregables",
+        "icono": "FolderCheck",
+        "items": [
+          "Archivos finales optimizados para cada plataforma: PNG, JPG y PDF.",
+          "Los archivos editables no se incluyen dentro de esta propuesta y podrán entregarse mediante una licencia o acuerdo adicional en caso de ser requeridos."
+        ]
+      }
+    ]
+  },
+  "valorAgregado": {
+    "etiqueta": "Valor agregado",
+    "titulo": "¿Por qué trabajar conmigo?",
+    "items": [
+      {
+        "titulo": "Comunicación estratégica",
+        "descripcion": "Cada pieza responde a un objetivo dentro del recorrido del evento, no a una necesidad aislada del momento.",
+        "icono": "Target"
+      },
+      {
+        "titulo": "Consistencia visual",
+        "descripcion": "Un mismo sistema gráfico se mantiene del primer anuncio al último recordatorio, sin fragmentar la identidad del evento.",
+        "icono": "Layers"
+      },
+      {
+        "titulo": "Diseño orientado a resultados",
+        "descripcion": "Las decisiones de diseño se toman pensando en inscripciones y participación, no solamente en estética.",
+        "icono": "TrendingUp"
+      },
+      {
+        "titulo": "Material optimizado para cada plataforma",
+        "descripcion": "Cada pieza se adapta al formato y comportamiento real de Instagram, Facebook, WhatsApp y grupos médicos.",
+        "icono": "LayoutGrid"
+      },
+      {
+        "titulo": "Organización del proyecto",
+        "descripcion": "Cronograma claro, entregables definidos y comunicación directa durante todo el proceso, sin cabos sueltos.",
+        "icono": "ListChecks"
+      },
+      {
+        "titulo": "Calidad profesional",
+        "descripcion": "Archivos finales optimizados, revisados y listos para publicarse sin retrabajo de por medio.",
+        "icono": "BadgeCheck"
+      },
+      {
+        "titulo": "Experiencia en proyectos digitales",
+        "descripcion": "Trabajo aplicado en campañas y lanzamientos reales, con criterio para priorizar lo que realmente mueve resultados.",
+        "icono": "Sparkles"
+      }
+    ]
+  },
+  "ctaFinal": {
+    "titulo": "¿Listos para comenzar?",
+    "descripcion": "Será un gusto colaborar en la difusión de las Jornadas Bienales de Dermatología 2026 mediante una estrategia visual profesional y una ejecución organizada.",
+    "ctaPrimario": "Aceptar propuesta",
+    "ctaSecundario": "Solicitar ajustes"
+  },
+  "detallesTecnicos": {
+    "titulo": "Detalles técnicos",
+    "items": [
+      "Excelente SEO",
+      "Excelente rendimiento",
+      "Componentes reutilizables",
+      "Código limpio",
+      "Accesibilidad",
+      "Animaciones suaves",
+      "Responsive perfecto",
+      "Preparado para exportar a PDF",
+      "Preparado para reutilizar con otros clientes"
+    ]
+  }
+}

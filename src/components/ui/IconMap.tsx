@@ -1,0 +1,51 @@
+import {
+  Palette,
+  Users,
+  Clock,
+  Layers,
+  Calendar,
+  Instagram,
+  Facebook,
+  MessageCircle,
+  Target,
+  TrendingUp,
+  LayoutGrid,
+  ListChecks,
+  BadgeCheck,
+  Sparkles,
+  Wallet,
+  RefreshCcw,
+  FolderCheck,
+  Check,
+  ArrowRight,
+  Mail,
+  Circle,
+  type LucideIcon,
+} from "lucide-react";
+
+const icons: Record<string, LucideIcon> = {
+  Palette,
+  Users,
+  Clock,
+  Layers,
+  Calendar,
+  Instagram,
+  Facebook,
+  MessageCircle,
+  Target,
+  TrendingUp,
+  LayoutGrid,
+  ListChecks,
+  BadgeCheck,
+  Sparkles,
+  Wallet,
+  RefreshCcw,
+  FolderCheck,
+  Check,
+  ArrowRight,
+  Mail,
+};
+
+export function getIcon(name: string): LucideIcon {
+  return icons[name] ?? Circle;
+}
