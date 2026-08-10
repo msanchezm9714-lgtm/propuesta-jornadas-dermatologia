@@ -42,6 +42,15 @@ export function Hero({ data }: { data: ClienteData }) {
         </motion.h1>
 
         <motion.p
+          initial={{ opacity: 0, y: 16 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.15 }}
+          className="mt-4 text-base italic text-ink-muted sm:text-lg"
+        >
+          {data.cliente.tema}
+        </motion.p>
+
+        <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}

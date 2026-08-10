@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { Check, CheckCircle2, Sparkles } from "lucide-react";
 import type { ClienteData, Fase } from "@/lib/types";
@@ -9,7 +10,6 @@ import { Badge } from "@/components/ui/Badge";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { Toggle } from "@/components/ui/Toggle";
 import { useProposal } from "@/context/ProposalContext";
-import { useCountUp } from "@/hooks/useCountUp";
 import { cn, formatCurrency } from "@/lib/utils";
 
 function PhaseCard({
@@ -112,7 +112,13 @@ function InvestmentSummary({
   fase2: Fase;
 }) {
   const { total, moneda, fase2Activa } = useProposal();
-  const displayTotal = useCountUp(total);
+  const [pulse, setPulse] = useState(false);
+
+  useEffect(() => {
+    setPulse(true);
+    const timeout = setTimeout(() => setPulse(false), 400);
+    return () => clearTimeout(timeout);
+  }, [total]);
 
   return (
     <FadeIn delay={0.2}>
@@ -142,14 +148,14 @@ function InvestmentSummary({
           <p className="text-xs font-semibold uppercase tracking-wide text-ink-muted">
             Inversión total
           </p>
-          <motion.p
-            key={fase2Activa ? "with-phase2" : "phase1-only"}
-            initial={{ opacity: 0.4 }}
-            animate={{ opacity: 1 }}
-            className="mt-1 text-4xl font-semibold tracking-tight text-ink"
+          <p
+            className={cn(
+              "mt-1 text-4xl font-semibold tracking-tight text-ink transition-all duration-300 ease-out",
+              pulse && "scale-105 text-brand-hover"
+            )}
           >
-            {formatCurrency(displayTotal, moneda)}
-          </motion.p>
+            {formatCurrency(total, moneda)}
+          </p>
         </div>
 
         <p className="max-w-sm text-xs leading-relaxed text-ink-muted">{notaResumen}</p>

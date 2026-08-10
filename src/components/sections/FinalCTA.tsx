@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowRight, MessageCircle } from "lucide-react";
 import type { ClienteData } from "@/lib/types";
@@ -37,7 +38,21 @@ export function FinalCTA({ data }: { data: ClienteData }) {
             {ctaFinal.descripcion}
           </p>
 
-          <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
+          <div className="mt-8 flex items-center justify-center gap-3">
+            <Image
+              src={autor.fotoUrl}
+              alt={autor.nombre}
+              width={44}
+              height={44}
+              className="h-11 w-11 rounded-full object-cover ring-2 ring-white/20"
+            />
+            <div className="text-left">
+              <p className="text-sm font-semibold text-white">{autor.nombre}</p>
+              <p className="text-xs text-white/60">{autor.rol}</p>
+            </div>
+          </div>
+
+          <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <Button href={acceptHref} icon={<ArrowRight className="h-4 w-4" />}>
               {ctaFinal.ctaPrimario}
             </Button>

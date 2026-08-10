@@ -64,6 +64,12 @@ export function Timeline({ data }: { data: ClienteData }) {
               );
             })}
           </ol>
+
+          <FadeIn delay={0.1}>
+            <p className="mt-10 rounded-2xl border border-brand-border bg-card/40 px-6 py-4 text-center text-xs leading-relaxed text-ink-muted sm:text-left">
+              {cronograma.notaSimultaneidad}
+            </p>
+          </FadeIn>
         </div>
       </Container>
     </section>

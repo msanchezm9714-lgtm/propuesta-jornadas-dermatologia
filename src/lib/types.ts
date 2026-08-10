@@ -5,6 +5,7 @@ export interface ClienteData {
   };
   cliente: {
     nombre: string;
+    tema: string;
     proyecto: string;
     fecha: string;
     fechaEvento: string;
@@ -13,6 +14,7 @@ export interface ClienteData {
   autor: {
     nombre: string;
     rol: string;
+    fotoUrl: string;
     email: string;
     telefono: string;
     whatsapp: string;
@@ -61,6 +63,7 @@ export interface ClienteData {
       titulo: string;
       icono: string;
       destacado?: string;
+      nota?: string;
       items: string[];
     }[];
   };
@@ -87,6 +90,20 @@ export interface ClienteData {
       parrafos: string[];
     };
   };
+  fueraDeAlcance: {
+    etiqueta: string;
+    titulo: string;
+    descripcion: string;
+    items: string[];
+    nota: string;
+  };
+  materialesIniciales: {
+    etiqueta: string;
+    titulo: string;
+    descripcion: string;
+    items: string[];
+    nota: string;
+  };
   cronograma: {
     etiqueta: string;
     titulo: string;
@@ -95,6 +112,7 @@ export interface ClienteData {
       descripcion: string;
       condicional?: boolean;
     }[];
+    notaSimultaneidad: string;
   };
   tiempos: {
     etiqueta: string;

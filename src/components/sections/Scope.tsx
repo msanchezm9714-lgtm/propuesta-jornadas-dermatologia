@@ -47,6 +47,11 @@ export function Scope({ data }: { data: ClienteData }) {
                       </li>
                     ))}
                   </ul>
+                  {categoria.nota && (
+                    <p className="mt-5 border-t border-brand-border pt-4 text-xs leading-relaxed text-ink-muted">
+                      {categoria.nota}
+                    </p>
+                  )}
                 </Card>
               </FadeIn>
             );

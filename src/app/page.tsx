@@ -11,8 +11,10 @@ import { Scope } from "@/components/sections/Scope";
 import { ProposalValue } from "@/components/sections/ProposalValue";
 import { Investment } from "@/components/sections/Investment";
 import { CampaignManagement } from "@/components/sections/CampaignManagement";
+import { GettingStarted } from "@/components/sections/GettingStarted";
 import { Timeline } from "@/components/sections/Timeline";
 import { EstimatedTime } from "@/components/sections/EstimatedTime";
+import { OutOfScope } from "@/components/sections/OutOfScope";
 import { Conditions } from "@/components/sections/Conditions";
 import { ValueProposition } from "@/components/sections/ValueProposition";
 import { FinalCTA } from "@/components/sections/FinalCTA";
@@ -32,8 +34,10 @@ export default function Home() {
         <ProposalValue data={data} />
         <Investment data={data} />
         <CampaignManagement data={data} />
+        <GettingStarted data={data} />
         <Timeline data={data} />
         <EstimatedTime data={data} />
+        <OutOfScope data={data} />
         <Conditions data={data} />
         <ValueProposition data={data} />
         <FinalCTA data={data} />
