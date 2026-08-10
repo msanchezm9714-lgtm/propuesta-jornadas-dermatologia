@@ -62,7 +62,36 @@ export function Hero({ data }: { data: ClienteData }) {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.4 }}
+          transition={{ duration: 0.7, delay: 0.35 }}
+          className="mt-9 flex flex-wrap items-center justify-center gap-x-8 gap-y-4"
+        >
+          {data.hero.stats.map((stat, index) => (
+            <div key={stat.etiqueta} className="flex items-center gap-x-8">
+              {index > 0 && (
+                <span className="hidden h-8 w-px bg-brand-border sm:block" />
+              )}
+              <div className="flex flex-col items-center">
+                <span
+                  className={
+                    stat.valor.length > 6
+                      ? "text-sm font-semibold text-ink"
+                      : "text-2xl font-semibold text-ink"
+                  }
+                >
+                  {stat.valor}
+                </span>
+                <span className="mt-0.5 text-xs uppercase tracking-wide text-ink-muted">
+                  {stat.etiqueta}
+                </span>
+              </div>
+            </div>
+          ))}
+        </motion.div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.7, delay: 0.45 }}
           className="mt-10 flex flex-col gap-3 sm:flex-row"
         >
           <Button href="#propuesta" icon={<ArrowRight className="h-4 w-4" />}>
@@ -72,6 +101,15 @@ export function Hero({ data }: { data: ClienteData }) {
             {data.hero.ctaSecundario}
           </Button>
         </motion.div>
+
+        <motion.p
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.7, delay: 0.55 }}
+          className="mt-6 text-xs font-medium uppercase tracking-wide text-ink-muted"
+        >
+          Evento: {data.cliente.fechaEvento}
+        </motion.p>
       </Container>
     </section>
   );

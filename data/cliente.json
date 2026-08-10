@@ -1,12 +1,13 @@
 {
   "meta": {
     "tituloPagina": "Propuesta · Jornadas Bienales de Dermatología 2026",
-    "descripcionPagina": "Propuesta de comunicación estratégica y difusión digital para las Jornadas Bienales de Dermatología 2026."
+    "descripcionPagina": "Propuesta de comunicación estratégica y difusión digital para las Jornadas Bienales de Dermatología 2026, 9 y 10 de octubre."
   },
   "cliente": {
     "nombre": "Jornadas Bienales de Dermatología 2026",
     "proyecto": "Comunicación Estratégica y Difusión Digital",
     "fecha": "Agosto 2026",
+    "fechaEvento": "9 y 10 de octubre de 2026",
     "vigencia": "Esta propuesta tiene una vigencia de 15 días a partir de su fecha de envío."
   },
   "autor": {
@@ -22,13 +23,18 @@
     "subtitulo": "Propuesta de Comunicación Estratégica",
     "descripcion": "Diseño, estrategia y difusión digital para maximizar el alcance, la participación y el impacto de las Jornadas Bienales de Dermatología.",
     "ctaPrimario": "Ver propuesta",
-    "ctaSecundario": "Contactar"
+    "ctaSecundario": "Contactar",
+    "stats": [
+      { "valor": "9", "etiqueta": "Ponentes" },
+      { "valor": "8", "etiqueta": "Semanas de campaña" },
+      { "valor": "Instagram · Facebook · WhatsApp", "etiqueta": "Canales" }
+    ]
   },
   "sobreProyecto": {
     "etiqueta": "Sobre el proyecto",
     "titulo": "Más que piezas gráficas: una estrategia de comunicación",
     "descripcion": "El objetivo de este proyecto no es únicamente desarrollar piezas gráficas sueltas. Es construir una estrategia de comunicación visual consistente, capaz de posicionar las Jornadas como un evento de referencia y de generar participación real entre los profesionales de la salud a los que está dirigido.",
-    "objetivo": "Cada pieza —desde el anuncio inicial hasta el último recordatorio antes del evento— responde a un mismo sistema visual y a un mismo propósito: que la comunidad médica se entere, se interese y se inscriba.",
+    "objetivo": "Cada pieza —desde el anuncio inicial hasta el último recordatorio antes del evento, los días 9 y 10 de octubre— responde a un mismo sistema visual y a un mismo propósito: que la comunidad médica se entere, se interese y se inscriba.",
     "publicoObjetivoTitulo": "Público objetivo",
     "publicoObjetivo": [
       "Pediatras",
@@ -43,6 +49,32 @@
       { "nombre": "Facebook", "icono": "Facebook" },
       { "nombre": "WhatsApp", "icono": "MessageCircle" },
       { "nombre": "Grupos Médicos", "icono": "Users" }
+    ],
+    "identidadVisual": {
+      "titulo": "Identidad visual",
+      "texto": "El proyecto se desarrollará tomando como base el manual de identidad visual proporcionado por la organización. No se contempla el desarrollo de una identidad nueva: el trabajo consiste en aplicar y adaptar esa identidad a cada pieza de la campaña."
+    }
+  },
+  "valorPropuesta": {
+    "etiqueta": "Enfoque",
+    "titulo": "No es solo producción de diseños",
+    "mensaje": "Una comunicación consistente requiere más que piezas individuales. Esta propuesta integra producción visual, planificación y ejecución para mantener una presencia coherente durante todo el periodo de difusión.",
+    "conceptos": [
+      {
+        "numero": "01",
+        "titulo": "Consistencia",
+        "descripcion": "Un mismo sistema de comunicación se mantiene en cada pieza, del primer anuncio al último recordatorio."
+      },
+      {
+        "numero": "02",
+        "titulo": "Planificación",
+        "descripcion": "Un calendario editorial ordena qué se publica, cuándo y en qué plataforma durante toda la campaña."
+      },
+      {
+        "numero": "03",
+        "titulo": "Ejecución",
+        "descripcion": "La publicación, el copywriting y la atención de mensajes se gestionan de forma activa durante las 8 semanas de difusión."
+      }
     ]
   },
   "alcance": {
@@ -54,28 +86,26 @@
         "titulo": "Diseño Gráfico",
         "icono": "Palette",
         "items": [
-          "Imagen principal del congreso",
+          "Imagen principal del congreso / banner oficial",
           "Save the Date",
           "Apertura de inscripciones",
           "Programa general",
-          "Información de sede",
-          "Información de costos",
-          "Últimos lugares"
+          "Sede y datos del evento",
+          "Información de costos e inscripciones, cuando corresponda",
+          "Últimos lugares / último llamado"
         ]
       },
       {
         "titulo": "Publicaciones de ponentes",
         "icono": "Users",
+        "destacado": "9 piezas individuales",
         "items": [
-          "Diseño individual",
           "Fotografía",
           "Nombre",
           "Especialidad",
           "Institución",
-          "Tema",
-          "Currículum breve cuando aplique",
-          "Adaptación Feed",
-          "Adaptación Stories"
+          "Tema de la conferencia",
+          "Currículum breve cuando corresponda"
         ]
       },
       {
@@ -87,7 +117,7 @@
           "Presentación de ponentes",
           "Cuenta regresiva",
           "Recordatorios",
-          "Última oportunidad"
+          "Última oportunidad de inscripción"
         ]
       },
       {
@@ -96,17 +126,18 @@
         "items": [
           "Instagram Feed",
           "Facebook Feed",
-          "Stories",
-          "Vertical",
-          "Cuadrado",
-          "WhatsApp"
+          "Instagram Stories",
+          "Facebook Stories",
+          "Formatos verticales",
+          "Formatos cuadrados",
+          "Material optimizado para WhatsApp"
         ]
       },
       {
-        "titulo": "Calendario",
+        "titulo": "Planificación",
         "icono": "Calendar",
         "items": [
-          "Planeación completa de publicaciones hasta el evento"
+          "Calendario sugerido de publicaciones desde el inicio de campaña hasta el evento"
         ]
       }
     ]
@@ -120,48 +151,115 @@
       "numero": "Fase 1",
       "nombre": "Producción Creativa",
       "badge": "OBLIGATORIA",
-      "descripcion": "El desarrollo completo del sistema visual del evento y de todas las piezas necesarias para su difusión.",
+      "descripcion": "Desarrollo y producción del material gráfico necesario para comunicar y promocionar las Jornadas Bienales de Dermatología 2026, respetando la identidad visual proporcionada por la organización.",
       "precio": 22000,
       "incluye": [
-        "Desarrollo de identidad gráfica del evento",
-        "Diseño de todas las piezas solicitadas",
-        "Diseño de publicaciones para ponentes",
-        "Adaptaciones para redes sociales",
-        "Historias",
-        "Calendario de publicaciones",
-        "Archivos finales optimizados",
+        "Aplicación y adaptación de la identidad visual proporcionada por la organización",
+        "Diseño gráfico para redes: banner, Save the Date, apertura de inscripciones, programa, sede y costos",
+        "9 piezas individuales para ponentes",
+        "Adaptaciones para Instagram, Facebook, formatos verticales, cuadrados y WhatsApp",
+        "Historias para cada etapa de la campaña",
+        "Calendario sugerido de publicaciones",
+        "Archivos finales optimizados (PNG, JPG, PDF)",
         "Hasta dos rondas de ajustes"
       ]
     },
     "fase2": {
       "numero": "Fase 2",
-      "nombre": "Gestión de Campaña",
+      "nombre": "Gestión de Campaña Digital",
       "badge": "OPCIONAL",
-      "descripcion": "La operación diaria de la campaña, para que la comunicación se mantenga activa y consistente hasta el evento.",
+      "duracion": "8 semanas",
+      "descripcion": "Ejecución y seguimiento de la estrategia de comunicación durante el periodo de difusión del evento.",
       "precio": 13000,
       "incluye": [
-        "Programación de publicaciones",
-        "Redacción de copies",
-        "Gestión del calendario",
-        "Publicación del contenido",
-        "Monitoreo básico",
-        "Coordinación de ajustes durante la campaña"
+        "Gestión del calendario editorial durante las 8 semanas",
+        "Programación, publicación y redacción de copies",
+        "Gestión de comunidad: mensajes y comentarios",
+        "Automatización de respuestas frecuentes",
+        "Seguimiento y ajustes durante la campaña"
       ]
     },
     "notaResumen": "La Gestión de Campaña complementa la Producción Creativa y permite mantener una comunicación consistente durante toda la difusión del evento."
+  },
+  "gestionCampana": {
+    "etiqueta": "Fase 2 · Detalle",
+    "titulo": "¿Qué incluye la Gestión de Campaña Digital?",
+    "descripcion": "Cómo se ejecuta la difusión durante las 8 semanas de campaña, en caso de contratar la Fase 2.",
+    "grupos": [
+      {
+        "titulo": "Planeación",
+        "icono": "ListChecks",
+        "items": [
+          "Gestión del calendario editorial durante las 8 semanas.",
+          "Organización de fechas y frecuencia de publicaciones.",
+          "Coordinación del contenido según las diferentes etapas de la campaña."
+        ]
+      },
+      {
+        "titulo": "Publicación y contenido",
+        "icono": "Send",
+        "items": [
+          "Programación y publicación del material desarrollado en la Fase 1.",
+          "Redacción de copies para las publicaciones.",
+          "Adaptación de textos cuando sea necesario.",
+          "Publicación en Instagram y Facebook.",
+          "Preparación del contenido para distribución mediante WhatsApp y grupos médicos cuando corresponda."
+        ]
+      },
+      {
+        "titulo": "Gestión de comunidad",
+        "icono": "MessageCircle",
+        "items": [
+          "Monitoreo de comentarios y mensajes.",
+          "Respuesta a preguntas frecuentes relacionadas con la información oficial del evento.",
+          "Uso de respuestas rápidas y banco de respuestas.",
+          "Canalización de consultas que requieran información administrativa específica.",
+          "Escalamiento de consultas que deban ser respondidas directamente por el equipo organizador."
+        ]
+      },
+      {
+        "titulo": "Automatización",
+        "icono": "Zap",
+        "items": [
+          "Configuración de respuestas rápidas para preguntas frecuentes.",
+          "Organización de un banco de respuestas.",
+          "Automatizaciones básicas de mensajes cuando las plataformas utilizadas lo permitan.",
+          "Creación de un flujo de atención que reduzca la necesidad de intervención manual."
+        ]
+      },
+      {
+        "titulo": "Seguimiento",
+        "icono": "TrendingUp",
+        "items": [
+          "Revisión periódica del desempeño de las publicaciones.",
+          "Identificación de contenidos con mejor respuesta.",
+          "Ajustes básicos al calendario durante la campaña.",
+          "Coordinación de modificaciones con el equipo organizador."
+        ]
+      }
+    ],
+    "alcanceAtencion": {
+      "titulo": "Alcance de atención",
+      "parrafos": [
+        "La gestión contempla monitoreo y respuesta básica de mensajes y comentarios relacionados con la información oficial del evento durante las 8 semanas de campaña.",
+        "No contempla disponibilidad permanente, atención 24/7 ni respuesta a consultas médicas.",
+        "Las consultas relacionadas con información médica, cambios administrativos, pagos, reembolsos o situaciones que requieran una decisión por parte de la organización serán canalizadas al equipo responsable del evento.",
+        "El servicio contempla una gestión de comunidad de volumen moderado. En caso de presentarse un volumen extraordinario de mensajes o requerirse una dedicación significativamente superior a la contemplada, el alcance podrá revisarse de común acuerdo."
+      ]
+    }
   },
   "cronograma": {
     "etiqueta": "Cronograma",
     "titulo": "Cómo avanza el proyecto",
     "pasos": [
-      { "titulo": "Recepción del anticipo", "descripcion": "Confirmación del proyecto y arranque formal del trabajo." },
-      { "titulo": "Inicio del proyecto", "descripcion": "Recopilación de información, contenidos y materiales de referencia." },
-      { "titulo": "Desarrollo de identidad visual", "descripcion": "Definición del sistema gráfico que guiará todas las piezas." },
-      { "titulo": "Diseño del material", "descripcion": "Producción de la totalidad de piezas definidas en el alcance." },
-      { "titulo": "Ronda de ajustes", "descripcion": "Revisión y afinación del material junto con el equipo organizador." },
-      { "titulo": "Entrega del material final", "descripcion": "Archivos optimizados y listos para su publicación." },
-      { "titulo": "Inicio de la difusión", "descripcion": "Arranque de la campaña en los canales definidos." },
-      { "titulo": "Seguimiento de campaña", "descripcion": "Gestión y monitoreo continuo hasta el cierre del evento.", "condicional": true }
+      { "titulo": "Confirmación de propuesta", "descripcion": "Aceptación de los términos y el alcance del proyecto." },
+      { "titulo": "Recepción del anticipo y materiales", "descripcion": "Confirmación del pago inicial y entrega del manual de identidad y contenidos necesarios." },
+      { "titulo": "Aplicación de identidad visual", "descripcion": "Adaptación del sistema visual proporcionado por la organización a las piezas del proyecto." },
+      { "titulo": "Producción de piezas", "descripcion": "Diseño de la totalidad del material definido en el alcance." },
+      { "titulo": "Revisión y ajustes", "descripcion": "Hasta dos rondas de ajustes junto con el equipo organizador." },
+      { "titulo": "Entrega de material final", "descripcion": "Archivos optimizados y listos para su publicación." },
+      { "titulo": "Inicio de campaña", "descripcion": "Arranque de la difusión en los canales definidos." },
+      { "titulo": "Gestión y seguimiento durante 8 semanas", "descripcion": "Publicación, gestión de comunidad y seguimiento continuo hasta el evento, los días 9 y 10 de octubre.", "condicional": true }
     ]
   },
   "tiempos": {
@@ -181,7 +279,8 @@
         "icono": "Wallet",
         "items": [
           "50% de anticipo para iniciar el proyecto.",
-          "50% restante contra entrega del material final."
+          "50% restante contra entrega del material final.",
+          "Aplica como condición general de la propuesta, sin importar si se contrata solo la Fase 1 o ambas fases."
         ]
       },
       {
@@ -197,7 +296,7 @@
         "icono": "FolderCheck",
         "items": [
           "Archivos finales optimizados para cada plataforma: PNG, JPG y PDF.",
-          "Los archivos editables no se incluyen dentro de esta propuesta y podrán entregarse mediante una licencia o acuerdo adicional en caso de ser requeridos."
+          "Los archivos fuente o editables no están incluidos en la propuesta. En caso de ser requeridos, podrán contemplarse mediante un acuerdo o licencia adicional."
         ]
       }
     ]
@@ -213,7 +312,7 @@
       },
       {
         "titulo": "Consistencia visual",
-        "descripcion": "Un mismo sistema gráfico se mantiene del primer anuncio al último recordatorio, sin fragmentar la identidad del evento.",
+        "descripcion": "El manual de identidad de la organización se aplica de forma uniforme, del primer anuncio al último recordatorio.",
         "icono": "Layers"
       },
       {

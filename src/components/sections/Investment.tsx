@@ -1,7 +1,7 @@
 "use client";
 
-import { motion } from "framer-motion";
-import { Check, Sparkles } from "lucide-react";
+import { AnimatePresence, motion } from "framer-motion";
+import { Check, CheckCircle2, Sparkles } from "lucide-react";
 import type { ClienteData, Fase } from "@/lib/types";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
@@ -47,9 +47,10 @@ function PhaseCard({
           </div>
         )}
         {!highlighted && (
-          <Badge variant="outline" className="absolute -top-3 left-8">
-            {fase.badge}
-          </Badge>
+          <div className="absolute -top-3 left-8 flex items-center gap-2">
+            <Badge variant="outline">{fase.badge}</Badge>
+            {fase.duracion && <Badge variant="outline">{fase.duracion}</Badge>}
+          </div>
         )}
 
         <div className="mt-3 flex items-start justify-between gap-4">
@@ -61,8 +62,19 @@ function PhaseCard({
               {fase.nombre}
             </h3>
           </div>
-          {toggleable && onToggle && (
-            <Toggle checked={!!active} onChange={onToggle} label={`Activar ${fase.nombre}`} />
+
+          {toggleable && onToggle ? (
+            <div className="flex shrink-0 flex-col items-end gap-1.5">
+              <Toggle checked={!!active} onChange={onToggle} label={`Activar ${fase.nombre}`} />
+              <span className="text-[11px] font-medium text-ink-muted">
+                {active ? "Incluida" : "No incluida"}
+              </span>
+            </div>
+          ) : (
+            <div className="flex shrink-0 items-center gap-1.5 rounded-full bg-brand-soft/40 px-3 py-1.5 text-[11px] font-semibold text-brand-hover">
+              <CheckCircle2 className="h-3.5 w-3.5" />
+              Incluida
+            </div>
           )}
         </div>
 
@@ -90,16 +102,45 @@ function PhaseCard({
   );
 }
 
-function InvestmentSummary({ notaResumen }: { notaResumen: string }) {
+function InvestmentSummary({
+  notaResumen,
+  fase1,
+  fase2,
+}: {
+  notaResumen: string;
+  fase1: Fase;
+  fase2: Fase;
+}) {
   const { total, moneda, fase2Activa } = useProposal();
   const displayTotal = useCountUp(total);
 
   return (
     <FadeIn delay={0.2}>
-      <div className="mx-auto mt-12 flex max-w-xl flex-col items-center gap-4 rounded-4xl border border-brand-border bg-white/80 px-8 py-8 text-center shadow-soft-lg backdrop-blur-md sm:flex-row sm:justify-between sm:text-left">
+      <div className="mx-auto mt-12 flex max-w-xl flex-col items-center gap-5 rounded-4xl border border-brand-border bg-white/80 px-8 py-8 text-center shadow-soft-lg backdrop-blur-md">
+        <div className="flex flex-wrap items-center justify-center gap-2">
+          <span className="inline-flex items-center gap-1.5 rounded-full bg-brand-soft/40 px-3 py-1 text-xs font-medium text-brand-hover">
+            <Check className="h-3 w-3" />
+            {fase1.nombre}
+          </span>
+          <AnimatePresence>
+            {fase2Activa && (
+              <motion.span
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.9 }}
+                transition={{ duration: 0.25 }}
+                className="inline-flex items-center gap-1.5 rounded-full bg-brand-soft/40 px-3 py-1 text-xs font-medium text-brand-hover"
+              >
+                <Check className="h-3 w-3" />
+                {fase2.nombre}
+              </motion.span>
+            )}
+          </AnimatePresence>
+        </div>
+
         <div>
           <p className="text-xs font-semibold uppercase tracking-wide text-ink-muted">
-            Total de la inversión
+            Inversión total
           </p>
           <motion.p
             key={fase2Activa ? "with-phase2" : "phase1-only"}
@@ -110,7 +151,8 @@ function InvestmentSummary({ notaResumen }: { notaResumen: string }) {
             {formatCurrency(displayTotal, moneda)}
           </motion.p>
         </div>
-        <p className="max-w-xs text-xs leading-relaxed text-ink-muted">{notaResumen}</p>
+
+        <p className="max-w-sm text-xs leading-relaxed text-ink-muted">{notaResumen}</p>
       </div>
     </FadeIn>
   );
@@ -146,7 +188,11 @@ export function Investment({ data }: { data: ClienteData }) {
           />
         </div>
 
-        <InvestmentSummary notaResumen={fases.notaResumen} />
+        <InvestmentSummary
+          notaResumen={fases.notaResumen}
+          fase1={fases.fase1}
+          fase2={fases.fase2}
+        />
       </Container>
     </section>
   );

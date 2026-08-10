@@ -3,6 +3,7 @@ import type { ClienteData } from "@/lib/types";
 import { Container } from "@/components/ui/Container";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { Card } from "@/components/ui/Card";
+import { Badge } from "@/components/ui/Badge";
 import { FadeIn } from "@/components/ui/FadeIn";
 import { getIcon } from "@/components/ui/IconMap";
 
@@ -24,8 +25,13 @@ export function Scope({ data }: { data: ClienteData }) {
             return (
               <FadeIn key={categoria.titulo} delay={index * 0.06}>
                 <Card className="h-full bg-white">
-                  <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-brand-soft/40">
-                    <Icon className="h-5 w-5 text-brand-hover" />
+                  <div className="flex items-start justify-between gap-3">
+                    <div className="flex h-11 w-11 items-center justify-center rounded-2xl bg-brand-soft/40">
+                      <Icon className="h-5 w-5 text-brand-hover" />
+                    </div>
+                    {categoria.destacado && (
+                      <Badge className="whitespace-nowrap">{categoria.destacado}</Badge>
+                    )}
                   </div>
                   <h3 className="mt-5 text-lg font-semibold text-ink">
                     {categoria.titulo}

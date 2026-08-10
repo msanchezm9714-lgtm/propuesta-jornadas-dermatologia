@@ -19,6 +19,9 @@ import {
   Check,
   ArrowRight,
   Mail,
+  Send,
+  Zap,
+  ShieldCheck,
   Circle,
   type LucideIcon,
 } from "lucide-react";
@@ -44,6 +47,9 @@ const icons: Record<string, LucideIcon> = {
   Check,
   ArrowRight,
   Mail,
+  Send,
+  Zap,
+  ShieldCheck,
 };
 
 export function getIcon(name: string): LucideIcon {

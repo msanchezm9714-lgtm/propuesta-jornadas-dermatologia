@@ -7,6 +7,7 @@ export interface ClienteData {
     nombre: string;
     proyecto: string;
     fecha: string;
+    fechaEvento: string;
     vigencia: string;
   };
   autor: {
@@ -23,6 +24,10 @@ export interface ClienteData {
     descripcion: string;
     ctaPrimario: string;
     ctaSecundario: string;
+    stats: {
+      valor: string;
+      etiqueta: string;
+    }[];
   };
   sobreProyecto: {
     etiqueta: string;
@@ -33,6 +38,20 @@ export interface ClienteData {
     publicoObjetivo: string[];
     canalesTitulo: string;
     canales: { nombre: string; icono: string }[];
+    identidadVisual: {
+      titulo: string;
+      texto: string;
+    };
+  };
+  valorPropuesta: {
+    etiqueta: string;
+    titulo: string;
+    mensaje: string;
+    conceptos: {
+      numero: string;
+      titulo: string;
+      descripcion: string;
+    }[];
   };
   alcance: {
     etiqueta: string;
@@ -41,6 +60,7 @@ export interface ClienteData {
     categorias: {
       titulo: string;
       icono: string;
+      destacado?: string;
       items: string[];
     }[];
   };
@@ -52,6 +72,20 @@ export interface ClienteData {
     fase1: Fase;
     fase2: Fase;
     notaResumen: string;
+  };
+  gestionCampana: {
+    etiqueta: string;
+    titulo: string;
+    descripcion: string;
+    grupos: {
+      titulo: string;
+      icono: string;
+      items: string[];
+    }[];
+    alcanceAtencion: {
+      titulo: string;
+      parrafos: string[];
+    };
   };
   cronograma: {
     etiqueta: string;
@@ -101,6 +135,7 @@ export interface Fase {
   numero: string;
   nombre: string;
   badge: string;
+  duracion?: string;
   descripcion: string;
   precio: number;
   incluye: string[];

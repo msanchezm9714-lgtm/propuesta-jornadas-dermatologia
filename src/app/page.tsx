@@ -5,9 +5,12 @@ import { ScrollProgress } from "@/components/ui/ScrollProgress";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { Hero } from "@/components/sections/Hero";
+import { IdentityNote } from "@/components/sections/IdentityNote";
 import { AboutProject } from "@/components/sections/AboutProject";
 import { Scope } from "@/components/sections/Scope";
+import { ProposalValue } from "@/components/sections/ProposalValue";
 import { Investment } from "@/components/sections/Investment";
+import { CampaignManagement } from "@/components/sections/CampaignManagement";
 import { Timeline } from "@/components/sections/Timeline";
 import { EstimatedTime } from "@/components/sections/EstimatedTime";
 import { Conditions } from "@/components/sections/Conditions";
@@ -23,9 +26,12 @@ export default function Home() {
       <Navbar data={data} />
       <main>
         <Hero data={data} />
+        <IdentityNote data={data} />
         <AboutProject data={data} />
         <Scope data={data} />
+        <ProposalValue data={data} />
         <Investment data={data} />
+        <CampaignManagement data={data} />
         <Timeline data={data} />
         <EstimatedTime data={data} />
         <Conditions data={data} />
