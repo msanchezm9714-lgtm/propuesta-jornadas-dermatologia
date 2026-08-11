@@ -149,7 +149,7 @@
   "fases": {
     "etiqueta": "Propuesta de inversión",
     "titulo": "Fases del proyecto",
-    "descripcion": "Dos fases pensadas para trabajar de forma independiente o en conjunto, según las necesidades del evento.",
+    "descripcion": "Una producción creativa base, con la posibilidad de sumar la gestión y ejecución de la campaña.",
     "moneda": "MXN",
     "fase1": {
       "numero": "Fase 1",
@@ -247,6 +247,7 @@
       "titulo": "Alcance de atención",
       "parrafos": [
         "La gestión contempla monitoreo y respuesta básica de mensajes y comentarios relacionados con la información oficial del evento durante las 8 semanas de campaña.",
+        "La gestión de comunidad se realizará mediante revisiones periódicas durante la campaña, de acuerdo con el calendario y volumen de actividad.",
         "No contempla disponibilidad permanente, atención 24/7 ni respuesta a consultas médicas.",
         "Las consultas relacionadas con información médica, cambios administrativos, pagos, reembolsos o situaciones que requieran una decisión por parte de la organización serán canalizadas al equipo correspondiente.",
         "El servicio contempla una gestión de comunidad de volumen moderado. En caso de presentarse un volumen extraordinario de mensajes o requerirse una dedicación significativamente superior a la contemplada, el alcance podrá revisarse de común acuerdo."
@@ -298,7 +299,7 @@
       { "titulo": "Revisión y ajustes", "descripcion": "Hasta dos rondas de ajustes junto con el equipo organizador." },
       { "titulo": "Entrega progresiva del material", "descripcion": "Los archivos finales se entregan conforme se completan, para poder iniciar la difusión sin esperar a que todo el material esté terminado." },
       { "titulo": "Inicio de difusión", "descripcion": "Arranque de la publicación en los canales definidos." },
-      { "titulo": "Gestión y seguimiento durante 8 semanas", "descripcion": "Publicación, gestión de comunidad y seguimiento continuo hasta el evento, los días 9 y 10 de octubre.", "condicional": true }
+      { "titulo": "Gestión y seguimiento durante 8 semanas", "descripcion": "Publicación, gestión de comunidad y seguimiento periódico hasta el evento, los días 9 y 10 de octubre.", "condicional": true }
     ],
     "notaSimultaneidad": "El calendario de producción y difusión podrá desarrollarse de forma coordinada y parcialmente simultánea, de acuerdo con las fechas de publicación acordadas con la organización."
   },
@@ -356,8 +357,8 @@
         "icono": "Layers"
       },
       {
-        "titulo": "Diseño orientado a resultados",
-        "descripcion": "Las decisiones de diseño se toman pensando en inscripciones y participación, no solamente en estética.",
+        "titulo": "Diseño orientado a objetivos",
+        "descripcion": "Las decisiones de diseño se toman pensando en facilitar la comprensión de la información, generar interés y apoyar los objetivos de difusión e inscripción del evento.",
         "icono": "TrendingUp"
       },
       {
